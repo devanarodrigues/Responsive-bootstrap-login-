@@ -1,0 +1,48 @@
+/* background: linear-gradient(90deg, rgba(0, 71, 151, 1) 0%, rgba(36, 139, 255, 1) 0100%); */
+
+/* .primary {
+    background-color: #004797 !important;
+}
+
+.secondary {
+    background-color: #00acff !important;
+    border: 1px solid #00acff;
+}
+
+.secondary:hover {
+    background-color: #0077b3 !important;
+    border: 1px solid #0077b3; */
+
+body {
+    background-image: url("../img/595.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.back {
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.386);
+}
+
+.height{
+    height: 100vh;
+}
+
+@media screen and (min-width: 767px) {
+ .width{
+    width: 60vw !important;
+ }
+}
+@media screen and (min-width: 992px) {
+ .width{
+    width: 50vw !important;
+ }
+}
+@media screen and (min-width: 1200px) {
+ .width{
+    width: 40vw !important;
+ }
+}
+
